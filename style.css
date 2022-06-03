@@ -1,0 +1,302 @@
+html{
+  scroll-behavior: smooth;
+}
+*{
+  margin: 0px auto;
+  font-family:'Harmattan', sans-serif;
+  color:rgb(13, 13, 13);
+  box-sizing: border-box;
+  line-height: normal;
+}
+
+/* header style */
+header{
+  display: flex;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(19, 19, 19);
+}
+#logoclub{
+  height: 200px;
+  width: 200px;
+  margin-right: 10px;
+  margin-left: 20px;
+  padding: 30px;
+
+}
+#header1{
+  flex-grow: 2;
+  padding: 0px;
+}
+
+h1{
+  padding: 0px;
+  font-size: 45px;
+}
+h3.judul{
+  padding: 0px;
+  font-size: 30px;
+}
+
+span.judul{
+  color: white;
+}
+.judul{
+  color: rgb(180, 41, 41);
+}
+/* nav decoration */
+nav{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+li{
+  text-align: right;
+  display: inline;
+  padding: 10px 35px;
+}
+a.navigasi{
+  text-decoration: none;
+  font-size: 25px;
+  list-style: none;
+  display: inline;
+  color: white;
+
+}
+a.navigasi:hover{
+    color: rgb(180, 41, 41);
+    padding: 0px;
+}
+
+
+
+
+/* main style */
+main{
+  padding: 30px;
+  font-size: 20px;
+  overflow: auto;
+}
+.content{
+  float: left;
+  width: 74%;
+}
+aside{
+  float: right;
+  width: 25%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 20px;
+  padding:  10px 20px;
+}
+h3{
+  text-align: center;
+}
+
+#fotoprofil, #fotosejarah, #fotoprestasi{
+  display: block;
+  margin: auto;
+   width: 45%;
+   max-height: 400px;
+}
+figcaption{
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     border-radius: 5px;
+     padding: 20px;
+     margin-top: 20px;
+}
+
+.isi{
+  text-align: justify;
+  text-indent: 30px;
+}
+
+/* aside content */
+#photoProfil{
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+}
+.bio{
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+#aside1{
+  padding: 0px;
+  border-radius: 5px;
+  color: white;
+  background-color:rgb(19, 19, 19);
+
+}
+a{
+  text-decoration:none;
+  color: rgb(19, 19, 19);
+}
+a:hover{
+  text-decoration:none;
+  color:rgb(180, 41, 41);
+}
+.button{
+  font-size: 20px;
+  background: rgb(19, 19, 19);
+  color: white;
+  margin: 15px 15px auto;
+  border-radius: 5px;
+
+}
+#ronaldo, #bukanronaldo{
+  margin-top: 20px;
+  border-radius: 10px;
+  max-width: 250px;
+  height: 200px;
+}
+
+
+/* footer style */
+footer{
+  color: white;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(19, 19, 19);
+}
+.footer{
+  color: white;
+  font-size: 20px;
+}
+
+@media screen and (max-width:513px) {
+
+  header{
+    display: block;
+  }
+  main{
+    padding: 5px;
+    overflow: auto;
+  }
+  .content{
+    margin: 20px auto;
+    padding: 20px;
+    width: 100%;
+  }
+  aside{
+    margin: 20px auto;
+    width: 100%;
+  }
+  #photoProfil{
+    text-align: center;
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+  }
+  .button{
+    font-size: 15px;
+    background: rgb(19, 19, 19);
+    color: white;
+    margin: 10px 10px auto;
+    border-radius: 5px;
+
+  }
+  #ronaldo, #bukanronaldo{
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-height: 300px;
+  }
+}
+@media screen and (max-width:720px) {
+
+  header{
+    display: block;
+  }
+  main{
+    padding: 5px;
+    overflow: auto;
+  }
+  .content{
+    margin: 20px auto;
+    padding: 20px;
+    width: 100%;
+  }
+  aside{
+    margin: 0 150px auto;
+    width: 50%;
+  }
+  #photoProfil{
+    text-align: center;
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+  }
+  .button{
+    font-size: 15px;
+    background: rgb(19, 19, 19);
+    color: white;
+    margin: 10px 0px auto;
+    border-radius: 5px;
+
+  }
+  #ronaldo, #bukanronaldo{
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-height: 300px;
+  }
+}
+@media screen and (min-width:720px) {
+
+  main{
+    padding: 5px;
+    overflow: auto;
+  }
+  .content{
+    float: left;
+    margin: 15px auto;
+    padding: 20px;
+    width: 73%;
+  }
+  aside{
+    float: right;
+    margin: 60px auto;
+    margin-right: 10px;
+    width: 25%;
+  }
+  #photoProfil{
+    text-align: center;
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+  }
+  .button{
+    font-size: 15px;
+    background: rgb(19, 19, 19);
+    color: white;
+    margin: 10px 0px auto;
+    border-radius: 5px;
+
+  }
+  #ronaldo, #bukanronaldo{
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
